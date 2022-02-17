@@ -1,17 +1,17 @@
 body{
-    background-color: rgb(215, 220, 221);
-    flex: content;
+    background-color: rgb(197, 207, 209);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
+   }
 nav {
     text-align: right;
     padding: 30px 50px 0 0;
 }
 nav > a{
-    color: rgb(124, 128, 131);
+    color: rgb(37, 38, 39);
     margin-right: 10px;
     font-weight: 300;
     text-decoration: none;
+    background-color: rgb(255, 255, 255);
 }
 nav > a:hover{
     text-decoration: underline;
@@ -29,14 +29,18 @@ nav > a:hover{
     flex-direction: column;
 }
 .texto-cabecera h1 {
-    font-size: 50px;
-    color: blue;
+    font-size: 35px;
+    color: rgb(21, 21, 24);
 
 }
 .texto-cabecera h2{
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 300;
-    color: blue;
+    color: rgb(102, 102, 107);
 }
-
+.imagenprincipal {
+    padding: 20px;
+    width: 460px;
+    height: 380px;
+}
 }

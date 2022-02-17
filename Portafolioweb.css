@@ -1,0 +1,14 @@
+body{
+    background-image: url(imagenes/daniel-llorente-QFEZc453y70-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+
+    }
+nav > a{
+    color: rgb(37, 38, 39);
+    margin-right: 10px;
+    font-weight: 300;
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+
+    }

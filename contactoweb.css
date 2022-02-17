@@ -5,7 +5,7 @@
 
 }
  body{
-     background-image: url(imagenes/daniel-llorente-QFEZc453y70-unsplash.jpg);
+    background-image: url(imagenes/camila-cordeiro-qhEa09mqSno-unsplash.jpg);
     background-size: cover;
     background-position: center;
  }
@@ -16,9 +16,47 @@
      justify-content: center;
      align-items: center;
  }
- .adentro {
-     display: contents;
-     flex-flow: row;
+.adentro {
+     display: flex;
+     flex-flow: column;
      width: 40%;
-     height: 80%;
+     padding: 20px;
+     justify-content: center;
+     border-radius: 5px;
  }
+ input, textarea {
+     padding: 20px;
+     border: none;
+     resize: none;
+ }
+ .boton {
+     border: none;
+     background-color: bisque;
+     padding: 15px;
+     width: 150px;
+ }
+ button:active {
+     background-color: black;
+ }
+ nav {
+    text-align: right;
+    padding: 30px 50px 0 0;
+}
+nav > a{
+    color: rgb(0, 0, 0);
+    margin-right: 10px;
+    font-weight: 300;
+    text-decoration: none;
+    background-color: rgb(197, 207, 209);
+}
+.contenedor-footer{
+    display: flex;
+    flex-flow: column;
+    width: 88%;
+    padding: 20px;
+    background-color: yellow;
+    height: 100px;
+    border-radius: 10px
+    ;
+
+}
