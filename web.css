@@ -1,8 +1,42 @@
 body{
-    background-color: rgb(134, 129, 127);
+    background-color: rgb(215, 220, 221);
     flex: content;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav {
+    text-align: right;
+    padding: 30px 50px 0 0;
+}
+nav > a{
+    color: rgb(124, 128, 131);
+    margin-right: 10px;
+    font-weight: 300;
+    text-decoration: none;
+}
+nav > a:hover{
+    text-decoration: underline;
+ 
+}
+.diseñofrontal {
+    position: absolute;
+    bottom: -100px;
+    width: 100%;
+}
+.texto-cabecera {
+    display: flex;
+    height: 240px;
+    align-items: center;
+    flex-direction: column;
+}
+.texto-cabecera h1 {
+    font-size: 50px;
+    color: blue;
+
+}
+.texto-cabecera h2{
+    font-size: 30px;
+    font-weight: 300;
+    color: blue;
 }
 
-.imagenprincipal {
-    height: 400px;
 }
